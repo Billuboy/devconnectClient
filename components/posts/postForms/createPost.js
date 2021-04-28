@@ -29,7 +29,7 @@ function createPost(props) {
       text,
     };
     props.post(postData);
-    props.auth._id ? null : loginPopup();
+    props.auth._id || props.auth.keys.length === 0 ? null : loginPopup();
     setText('');
   };
 
