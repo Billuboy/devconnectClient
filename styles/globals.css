@@ -37,10 +37,6 @@ textarea:focus{
   border: 1px !important;
 }
 
-hr{
-  color: blue !important;
-}
-
 ::-webkit-scrollbar{
   width: 8px;
 }
@@ -52,8 +48,7 @@ hr{
   background: rgb(119, 117, 117);
 }
 ::-webkit-scrollbar-track{
-  background: transparent;
-  border-radius: 5px;
+  background: #000;
 }
 
 #app{

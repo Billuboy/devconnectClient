@@ -29,7 +29,9 @@ function createPost(props) {
       text,
     };
     props.post(postData);
-    props.auth._id || props.auth.keys.length < 1 ? null : loginPopup();
+    {
+      props.auth && Object.keys(props.auth).length > 0 ? null : loginPopup();
+    }
     setText('');
   };
 

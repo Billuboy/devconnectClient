@@ -64,7 +64,7 @@ function posts(props) {
           borderRadius="10px"
           boxShadow="lg">
           <PostCreate
-            auth={props.auth}
+            auth={props.auth ? props.auth : null}
             post={props.postPost}
             error={props.error}
             placeholder="Message"

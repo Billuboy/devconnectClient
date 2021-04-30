@@ -67,7 +67,7 @@ function postComments(props) {
           history={props.history}>
           <PostCreate
             mt="2rem"
-            auth={props.auth}
+            auth={props.auth ? props.auth : null}
             post={commentPost}
             error={props.error}
             placeholder="Comment"
