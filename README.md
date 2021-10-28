@@ -1,5 +1,5 @@
 # Front End of DevConnect
-_Front-end for DevConnect created using react._
+_Front-end for DevConnect created using React._
 
 ## TechStack Used
 
